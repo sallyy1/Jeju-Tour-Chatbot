@@ -16,7 +16,7 @@ Jeju Tour Chatbot using Solar LLM model of Upstage.
 3. **Install libraries:**
    
    ```bash
-  pip install -r requirements.txt
+   pip install -r requirements.txt
 
 ## 2. Run Streamlit python code for the web page
    ```bash
@@ -24,4 +24,4 @@ Jeju Tour Chatbot using Solar LLM model of Upstage.
 ```
 ## 3. Enter in the website link
 
-## 4. Chat with Solar model and have fun!
+## 4. Chat with Solar model and have fun!
