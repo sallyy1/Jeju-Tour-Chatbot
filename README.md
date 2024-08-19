@@ -28,6 +28,9 @@ This is my project for **Global AI Week - AI Hackathon** (Upstage, August 2024)
 
 ## 4. Chat with Solar model and have fun!
 
+## The sections where Upstage API
+- Where Upstage API is used: **solar_predibase_0818_final.ipynb** (for fine-tuning Solar model) and **streamlit_jeju_multi-turn-final.py** (for generate using fine-tuned Solar model & base Solar model)
+
 
 
 ### References list
