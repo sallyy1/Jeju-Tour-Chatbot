@@ -3,6 +3,8 @@ Jeju Tour Chatbot using Solar LLM model of Upstage.
 
 This is my project for **Global AI Week - AI Hackathon** (Upstage, August 2024)
 
+## 🚀 DEMO video: [Here](https://drive.google.com/file/d/19nnUcPvbLEtMi8Mlivcx5SfTswKpog0M/view?usp=drive_link)
+
 ## 1. Prepare Your Virtual Environment
 
 1. **Create a new virtual environment:**
