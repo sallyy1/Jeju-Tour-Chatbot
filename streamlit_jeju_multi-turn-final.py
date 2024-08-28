@@ -30,25 +30,22 @@ from datetime import datetime
 
 # setting for Predibase
 # Get a KEY from https://app.predibase.com/
-PREDIBASE_API_TOKEN= 'pb_lPDQJzoPWgyIUW2pVu4HKg'
+PREDIBASE_API_TOKEN= "YOUR_PREDIBASE_API_KEY_TOKEN"
 # api_token: str = userdata.get('PREDIBASE_API_KEY')
 pb = Predibase(api_token=PREDIBASE_API_TOKEN)
 
 
 # 업스테이지 API 키와 엔드포인트 설정
-UPSTAGE_API_KEY = "up_YsiiwBJ4YwMmf70RuQBLMdgLrI3DS"
-openai_client = OpenAI(api_key=UPSTAGE_API_KEY, base_url="https://api.upstage.ai/v1/solar")
+UPSTAGE_API_KEY = "YOUR_PREDIBASE_API_KEY_TOKEN"
 SOLAR_MODEL_ENDPOINT = "https://api.upstage.ai/v1/solar"
-
-# API 키와 클라이언트 설정
-UPSTAGE_API_KEY = "up_YsiiwBJ4YwMmf70RuQBLMdgLrI3DS"
+# 클라이언트 설정
 client = OpenAI(
     api_key=UPSTAGE_API_KEY,
     base_url="https://api.upstage.ai/v1/solar"
 )
 
 # 구글 맵스 API 키와 엔드포인트 설정
-GOOGLE_MAPS_API_KEY = "AIzaSyBBMupOEJ7CpSzcz7_TvCKIOE5kI1R-5_4" #"YOUR_GOOGLE_MAPS_API_KEY"
+GOOGLE_MAPS_API_KEY = "YOUR_GOOGLEMAPS_API_KEY_TOKEN"
 GOOGLE_MAPS_ENDPOINT = 'https://maps.googleapis.com/maps/api/place/findplacefromtext/json'
 gmaps = googlemaps.Client(key=GOOGLE_MAPS_API_KEY)
 
@@ -159,8 +156,8 @@ def search_place(query):
 # setting for MongoDB
 ca = certifi.where() # 보안 설정
 
-MONGO_USERNAME = "lhk4862"  # MongoDB 계정 사용자 이름
-MONGO_PASSWORD = "mwozcGbsYzeD6NEf"  # MongoDB 계정 비밀번호
+MONGO_USERNAME = "YOUR_MONGODB_USERNAME"  # MongoDB 계정 사용자 이름
+MONGO_PASSWORD = "YOUR_MONGODB_PASSWORD"  # MongoDB 계정 비밀번호
 CLUSTER_ADDRESS = "small-talk.objdhkl.mongodb.net"  # MongoDB 클러스터 주소
 APP_NAME = "small-talk"
 DB_NAME = "evaluation_small-talk_db"
